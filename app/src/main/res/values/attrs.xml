@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NavBottomBarView">
+        <attr name="mBigIconSrc" format="reference"/>
+        <attr name="mSmallIconSrc" format="reference"/>
+        <attr name="mIconWidth" format="dimension"/>
+        <attr name="mIconHeight" format="dimension"/>
+        <attr name="mRange" format="float"/>
+        <attr name="mName" format="string"/>
+        <attr name="mNameSize" format="dimension"/>
+        <attr name="mNameColor" format="color"/>
+    </declare-styleable>
+</resources>

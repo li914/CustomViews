@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.li914.customviews.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.li914.customviews.customview.NavBottomBarView
+            android:id="@+id/conversation"
+            app:mName="消息"
+            app:mNameSize="12sp"
+            app:mNameColor="#5000"
+            app:mIconWidth="50dp"
+            app:mIconHeight="50dp"
+            app:mRange="1.1"
+            app:mBigIconSrc="@drawable/conversation_normal_big"
+            app:mSmallIconSrc="@drawable/conversation_normal_small"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </com.li914.customviews.customview.NavBottomBarView>
+        <com.li914.customviews.customview.NavBottomBarView
+            android:id="@+id/contact"
+            app:mName="联系人"
+            app:mNameSize="12sp"
+            app:mNameColor="@color/normal"
+            app:mIconWidth="50dp"
+            app:mIconHeight="50dp"
+            app:mRange="1.1"
+            app:mBigIconSrc="@drawable/contact_normal_big"
+            app:mSmallIconSrc="@drawable/contact_normal_small"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </com.li914.customviews.customview.NavBottomBarView>
+        <com.li914.customviews.customview.NavBottomBarView
+            android:id="@+id/plugin"
+            app:mName="动态"
+            app:mNameSize="12sp"
+            app:mNameColor="#5000"
+            app:mIconWidth="50dp"
+            app:mIconHeight="50dp"
+            app:mRange="1.1"
+            app:mBigIconSrc="@drawable/plugin_normal_big"
+            app:mSmallIconSrc="@drawable/plugin_normal_big"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </com.li914.customviews.customview.NavBottomBarView>
+
+    </LinearLayout>
+
+</RelativeLayout>
